@@ -5,7 +5,7 @@ body{
 .base{
     width: 100%;
     height: 900px;
-    background-color: rgb(248, 245, 245)
+    background-color: rgb(255, 255, 255)
 }
 
 /*The basic styles of the divs */
@@ -13,25 +13,25 @@ body{
 .first{
     width: 20%;
     height: 900px;
-    background-color: #f0f2f5;
+    background-color: hsl(0, 0%, 100%);
     float: left
 }
 .second{
     width: 30%;
     height: 750px;
-    background-color: #fff;
+    background-color: #ffffff;
     float: left;
 }
 .third{
     width: 30%;
     height: 750px;
-    background-color:#fff;
+    background-color:#ffffff;
     float: left;
 }
 .fourth{
     width: 20%;
     height: 900px;
-    background-color:#fff;
+    background-color:#ffffff;
     float: left;
 }
 /*Ending */
