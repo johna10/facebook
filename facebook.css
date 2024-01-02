@@ -1,0 +1,240 @@
+/*body part*/
+body{
+    margin: 0px;
+}
+.base{
+    width: 100%;
+    height: 900px;
+    background-color: rgb(248, 245, 245)
+}
+
+/*The basic styles of the divs */
+/*Starting */
+.first{
+    width: 20%;
+    height: 900px;
+    background-color: #f0f2f5;
+    float: left
+}
+.second{
+    width: 30%;
+    height: 750px;
+    background-color: #fff;
+    float: left;
+}
+.third{
+    width: 30%;
+    height: 750px;
+    background-color:#fff;
+    float: left;
+}
+.fourth{
+    width: 20%;
+    height: 900px;
+    background-color:#fff;
+    float: left;
+}
+/*Ending */
+
+
+
+
+/*Second div styling*/
+/*Starting */
+.image{
+    margin-left: -18px;
+}
+.img {
+    width: 200px;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+    margin-top: 87px;
+}
+.txt{
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    font-size: 28px;
+    font-weight: normal;
+    line-height: 32px;
+}
+.txt2{
+    color: #606770;
+    font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    line-height: 24px;
+    margin-bottom: 12px;
+}
+/*First Account */
+.firstAc{
+    width: 180px;
+    height: 200px;
+    background-color: #606770;
+    float: left;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    box-shadow: 0px 0px 2px 4px rg;
+
+}
+.firstAcimg{
+    width: 180px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    float: bottom;
+}
+.firstAcsubdiv{
+    background-color: hsl(0, 1%, 86%);
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    overflow: hidden;
+    padding: 12px 0;
+    text-align: center;
+    text-decoration: none;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 180px;
+}
+img {
+    border: 0;
+    margin: 0;
+    display: block;
+  }
+
+/*second Account*/
+.secondAc{
+    width: 180px;
+    height: 200px;
+    background-color: hsl(0, 4%, 89%);
+    float: left;
+    margin-left: 15px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+.secondAcimg{
+    margin-left: 70px;
+    margin-top: 80px;
+}
+.secondAcsubdiv{
+    background-color:hsl(0, 1%, 86%);
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    overflow: hidden;
+    padding: 12px 0;
+    text-align: center;
+    text-decoration: none;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 180px;
+    margin-top: 57px;
+
+}
+/*Ending*/
+
+
+/*the third div is starting*/
+.thirdbasediv{
+    width: 76%;
+    height: 370px;
+    background-color: #f0f2f5;
+    margin-left: 90px;
+    margin-top: 145px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    align-items: center;
+    border-radius: 8px;
+    box-shadow: 0px 0px 2px 4px rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+    
+
+}
+.email{
+    width:350px;
+    height: 50px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-left: 20px;
+    margin-top: 20px;
+    border-color: #1877f2;
+    
+}
+.password{
+    width:350px;
+    height: 50px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-left: 20px;
+    margin-top: 20px;
+    border-color: #2d486d;
+}
+.login{
+    width:355px;
+    height: 50px;
+    color: #ffffff;
+    background-color: #1877f2;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-left: 20px;
+    margin-top: 20px;
+    border-color: #1877f2;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 48px;
+    padding: 0 16px;
+    
+}
+::placeholder{
+    width: 300px;
+    color: #a4a5a7;
+    font-size:large;
+    text-align: left;
+    padding-left: 10px;
+    
+}
+.Forgotten{
+    color: #1877f2;
+    padding-left: 133px;
+    cursor: pointer;
+    text-decoration: none;
+}
+hr.new1{
+    border-top: 1px;
+}
+.cross{
+    align-items: center;
+    border-bottom: 1px solid #dadde1;
+    display: flex;
+    margin: 20px 16px;
+    text-align: center;
+}
+.button{
+    width: 190px;
+    height: 48px;
+    color: #f0f2f5;
+    background-color: #00a400;
+    border-style: hidden;
+    margin-left:  105px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.lasttxtthirddiv{
+    margin-left: 25%;
+    color: black;
+}
+/*Ending */
